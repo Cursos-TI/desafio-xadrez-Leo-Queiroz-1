@@ -53,4 +53,15 @@ int main() {
         printf("esquerda\n");
     }while(rainha < 8);
     return 0;
+
+    //movimentando o cavalo
+    printf("\n");//identando uma linha vazia
+       int movimentacaoCavalo = 1;//valor inicial do cavalo
+
+       while(movimentacaoCavalo--){
+            for(int i = 0; i<2;i++){
+            printf("baixo\n");//imprime "Baixo 2 vezes"
+            }
+            printf("esquerda\n");
+       }
 }
