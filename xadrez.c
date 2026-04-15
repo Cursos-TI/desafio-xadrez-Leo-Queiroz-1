@@ -52,7 +52,7 @@ int main() {
         printf("rainha\n");
         printf("esquerda\n");
     }while(rainha < 8);
-    return 0;
+    
 
     //movimentando o cavalo
     printf("\n");//identando uma linha vazia
@@ -64,4 +64,5 @@ int main() {
             }
             printf("esquerda\n");
        }
+       return 0;
 }
